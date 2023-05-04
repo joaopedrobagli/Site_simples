@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(178,34,34);
+}
+
+.conteudo{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.conteudo .conteudo-sobre{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.conteudo .conteudo-sobre h1{
+    font-size: 35px;
+    color: rgb(178,34,34);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.conteudo .conteudo-sobre p{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+}
+
+footer .rodape-contato{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(178,34,34);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*Vetical*/
+    align-items: center;/*Horizontal*/
+}
+
+footer .rodape-contato h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+}
+
+footer .rodape-contato p{
+    color: rgb(255, 255, 255);
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+footer .rodape-desenvolvedores{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(67,84,92);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*Vetical*/
+    align-items: center;/*Horizontal*/
+}
+
+footer .rodape-desenvolvedores p{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+
+.menu{
+    width: 100%;
+    height: 60px;
+    background-color:  red;
+
+}
+
+.menu ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li{
+    list-style: none;
+}
+
+.menu ul li a{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+.menu ul li a:hover{
+    color:rgb(255,255,255);
+    background-color: rgb(0, 172, 199);
+}
